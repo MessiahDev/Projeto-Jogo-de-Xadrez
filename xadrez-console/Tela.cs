@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tabuleiro;
 
 namespace xadrez_console
 {
     internal class Tela
     {
-        public static void ImprimirTabuleiro(Tabuleiro.Tabuleiro tab)
+        public static void ImprimirTabuleiro(Tabuleiro._Tabuleiro tab)
         {
             for (int i = 0; i < tab.Linhas; i++)
             {

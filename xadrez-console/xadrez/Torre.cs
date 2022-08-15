@@ -9,7 +9,7 @@ namespace xadrez
 {
     internal class Torre : Peca
     {
-        public Torre(Cor cor, Tabuleiro.Tabuleiro tab) : base(cor, tab)
+        public Torre(Cor cor, Tabuleiro._Tabuleiro tab) : base(cor, tab)
         {
         }
         public override string ToString()
