@@ -11,9 +11,9 @@ namespace Tabuleiro
         public Posicao Posicao { get; set; }
         public Cor Cor { get; protected set; }
         public int QteMovimentos { get; set; }
-        public _tabuleiro Tab { get; set; }
+        public Tabuleiro Tab { get; set; }
 
-        public Peca(Posicao posicao, Cor cor, _tabuleiro tab)
+        public Peca(Posicao posicao, Cor cor, Tabuleiro tab)
         {
             Posicao = posicao;
             Cor = cor;            
