@@ -22,7 +22,7 @@ namespace xadrez
             Peca p = Tab.Peca(pos);
             return p == null || p.Cor != Cor;
         }
-        public override bool[,] MovimentosPossiveios()
+        public override bool[,] MovimentosPossiveis()
         {
             bool[,] mat = new bool[Tab.Linhas, Tab.Colunas];
 
